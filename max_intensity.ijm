@@ -6,7 +6,7 @@ setBatchMode(false);
  function find(dir) { 
       list = getFileList(dir); 
       for (i=0; i<list.length; i++) {           
-			if (endsWith(list[i], ".tif") & startsWith(list[i], "Fish2017")) { 
+			if (endsWith(list[i], ".tif") & startsWith(list[i], "Zbrain")) { 
               open(""+dir+list[i]);              
               run("Size...", "width=960 height=810 depth=25 constrain average interpolation=Bilinear");              
               title1=list[i];
