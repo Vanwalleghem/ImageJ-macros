@@ -3,7 +3,6 @@ input = getDirectory("Choose a Directory ");
 output = getDirectory("Choose Destination Directory");
 
 list = getFileList(input);
-setBatchMode(true);
 for (i = 0; i < list.length; i++) {	
 	action(input, output, list[i]);
 	if (isOpen("Exception")) {

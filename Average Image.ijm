@@ -1,5 +1,3 @@
-//Just creates average intensities projection for a whole directory
-
 input = getDirectory("Choose a Directory "); 
 output = getDirectory("Choose Destination Directory");
 setBatchMode(true);
